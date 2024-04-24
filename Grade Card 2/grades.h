@@ -1,0 +1,24 @@
+#ifndef GRADES_H
+#define GRADES_H
+
+#define MAX_NAME_LENGTH 100
+#define NUM_SUBJECTS 6
+#define NUM_TESTS 3
+
+typedef struct 
+{
+    float marks[NUM_TESTS];
+}subject;
+
+typedef struct 
+{
+    char name[MAX_NAME_LENGTH];
+    subject subjects[NUM_SUBJECTS];
+    float sgpa;
+}student;
+
+char calculateGrade(float marks);
+float calculateSGPA(subject subjects[],int num_subjects);
+void inputMarks(const char *subject,float marks[]);
+
+#endif
