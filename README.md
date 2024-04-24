@@ -1,6 +1,6 @@
 # Grade-Card
-# Program makes a grade card of 10 students, manages and calculates grades and SGPA
-# grades.h is the header file which contains declaration of functions used
+# Program takes input number of students from the user and makes grade card, manages and calculates grades and SGPA
+# grades.h is the header file which contains declaration of functions and structures used
 # main.c and grades.c contain main function and definitions of other functions used
 # makefile.mk links and compiles the program
 # Use mingw32-make -f makefile.mk in Windows Command Prompt to compile the code
